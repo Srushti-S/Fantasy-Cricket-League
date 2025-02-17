@@ -1,28 +1,49 @@
 # Fantasy-Cricket-League
+## Overview
 
-It is an online game where you create a virtual team of real cricket players and score points depending on how your chosen players perform in real life matches. To win a tournament, you must try and get the maximum points and the No. 1 rank amongst other participants.
+Fantasy-Cricket-League is an interactive online game that allows users to create a virtual team of real cricket players and compete based on their actual performance in live matches. Players earn points according to their selected cricketers' real-time statistics, and the goal is to maximize points and secure the top rank among participants.
 
+## Problem Statement
 
-Problem Statement: 
-
-Create a Fantasy Cricket game in Python. The game should have all the features displayed in the mock-up screens in the scenario. To calculate the points for each player, you can use rules similar to the sample rules displayed below. 
-
-Rules:
-
+Develop a Fantasy Cricket game using Python that includes all the features showcased in the provided mock-up screens. The game should incorporate a scoring system that evaluates player performance based on predefined rules.
+Scoring Rules
 Batting
-● 1 point for 2 runs scored
-● Additional 5 points for half century
-● Additional 10 points for century
-● 2 points for strike rate (runs/balls faced) of 80-100
-● Additional 4 points for strike rate>100
-● 1 point for hitting a boundary (four) and 2 points for over boundary (six)
 
+    1 point for every 2 runs scored
+    5 bonus points for a half-century (50 runs)
+    10 bonus points for a century (100 runs)
+    2 points for a strike rate between 80-100
+    4 additional points for a strike rate above 100
+    1 point per boundary (four)
+    2 points per over-boundary (six)
 
 Bowling
-● 10 points for each wicket
-● Additional 5 points for three wickets per innings
-● Additional 10 points for 5 wickets or more in innings
-● 4 points for economy rate (runs given per over) between 3.5 and 4.5
-● 7 points for economy rate between 2 and 3.5
-● 10 points for economy rate less than 2 Fielding
-● 10 points each for catch/stumping/run out
+
+    10 points per wicket taken
+    5 bonus points for taking three wickets in an innings
+    10 bonus points for taking five or more wickets in an innings
+    4 points for an economy rate between 3.5 and 4.5
+    7 points for an economy rate between 2 and 3.5
+    10 points for an economy rate below 2
+
+Fielding
+
+    10 points for every catch, stumping, or run-out
+
+# Installation & Setup
+
+Clone the repository
+
+    git clone https://github.com/yourusername/Fantasy-Cricket-League.git
+
+Navigate to the project folder
+
+    cd Fantasy-Cricket-League
+
+Install dependencies (if any)
+
+    pip install -r requirements.txt
+
+Run the game
+
+    python main.py
